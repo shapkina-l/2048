@@ -6,10 +6,12 @@
             "type": "shell",
             "command": "gcc",
             "args": [
-                "-g", // Add debugging information
+                "-g",
                 "*.c", // Compile all C files in the current directory
                 "-o",
-                "myProgram" // Output executable
+                "myProgram", // Output executable
+                "-lSDL2",
+                "-lSDL2_ttf"
             ],
             "group": {
                 "kind": "build",

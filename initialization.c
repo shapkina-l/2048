@@ -51,7 +51,7 @@ void addRandomTile()
         int x = emptyCells[r][0];
         int y = emptyCells[r][1];
 
-        grid[x][y] = (rand() % 10 == 0) ? 4 : 2;
+        grid[x][y] = (rand() % 10 == 0) ? 2 : 4;
     }
 }
 

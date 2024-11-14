@@ -35,7 +35,7 @@ int checkLose()
                 return 0;
             if (j < SIZE - 1 && grid[i][j] == grid[i][j + 1])
                 return 0;
-            if (i < SIZE - 1 && grid[i][j] == grid[i + 1][j]);
+            if (i < SIZE - 1 && grid[i][j] == grid[i + 1][j])
                 return 0;
             j++;
         }
